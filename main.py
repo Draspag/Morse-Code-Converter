@@ -59,7 +59,6 @@ from_latin_to_morse_alphabet = {
 }
 
 from_morse_to_latin_alphabet = {v: k for k, v in from_latin_to_morse_alphabet.items()}
-print(from_morse_to_latin_alphabet)
 
 
 def toMorse(latin_string):
